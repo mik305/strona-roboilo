@@ -134,6 +134,18 @@
       </div>
     </section><!-- End Features Section -->
 
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+          <div class="container" data-aos="zoom-in">
+    
+            <div class="text-center">
+              <h3>Akademia Roboilo</h3>
+              <p>Zapraszamy na wakacyjne zajęcia z robotami dla dzieci i młodzieży zainteresowanej robotyką, programowaniem czy drukiem 3d.</p>
+              <a class="cta-btn" href="#">Dowiedz się więcej</a>
+            </div>
+    
+          </div>
+        </section><!-- End Cta Section -->
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
@@ -427,7 +439,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-    function openYear(evt, cityName) {
+    function openYear(evt, whatYear) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -437,7 +449,7 @@
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
-      document.getElementById(cityName).style.display = "block";
+      document.getElementById(whatYear).style.display = "block";
       evt.currentTarget.className += " active";
     }
     function myFunction() {
