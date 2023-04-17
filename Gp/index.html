@@ -227,7 +227,7 @@
             <div class="col-lg-6 col-md-4 d-flex align-items-stretch mb-4 mt-4" data-aos="zoom-in" data-aos-delay="10">
               <div class="text-box">
                 <h4>Placek</h4>
-                <p>Opis</p>
+                <p>Jeden z pierszych robotów Sumo jakie u nas powstały, posiada 4 czujniki odległości, 2 czujniki koloru, 2 dość małe silniki oraz zaledwie 3cm wysokości jest to jeden z najniższych robotów w kategorii. Sterowany jest mikroprocesorem STM32F103 umieszczonym na laminacie naszego autorstwa. Jego następcą jest "Piramida" o udoskonalonej budowie zwiększająca jego główny atut czyli rozmiar i kształt mylący dla robotów przeciwników.</p>
               </div>
             </div>
           </div>
@@ -288,8 +288,6 @@
           <h2>Osiągnięcia</h2>
           <p>Nasze sukcesy</p>
         </div>
-
-
 
         <div class="row mb-5">
           <p><h5 class="mb-3"><b>I, II, III, IV</b> miejsce ROBOmotion 2022</h5>
@@ -573,6 +571,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+    window.onload = function() {
+      
+      openYear(event, 2022);
+    }
     function openYear(evt, whatYear) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
