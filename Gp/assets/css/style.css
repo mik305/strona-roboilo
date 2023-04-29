@@ -624,17 +624,15 @@ section {
   background: #fff;
 }
 
-.projects .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #6584ff;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
+.projects .icon-box button{
+  
+}
+
+.projects .icon-box-img {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
 }
 
 .projects .icon-box .icon i {
@@ -665,7 +663,7 @@ section {
   justify-content: space-evenly;
 }
 
-.projects .icon-box:hover {
+.projects .icon-box-img:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
