@@ -522,7 +522,7 @@ body {
   }
   
   .section-title h2 {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 500;
     padding: 0;
     line-height: 1px;
@@ -538,7 +538,7 @@ body {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #ffde9e;
+    background: #688eff;
     margin: 4px 10px;
   }
   

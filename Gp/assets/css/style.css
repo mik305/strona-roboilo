@@ -537,6 +537,27 @@ section {
   margin: 11px 7px;
 }
 
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  display: inline-block;
+  background: #688eff;
+  margin: 11px 7px;
+}
+
 .section-title p {
   margin: 0;
   margin: 0;
