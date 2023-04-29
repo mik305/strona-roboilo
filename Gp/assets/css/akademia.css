@@ -47,7 +47,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    transition: all 0.4s;
+    transition: all 0.2s;
   }
   
   .back-to-top i {
@@ -94,7 +94,7 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader0.5s linear infinite;
   }
   
   @keyframes animate-preloader {
@@ -120,7 +120,7 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    transition: all 0.5s;
+    transition: all 0.3s;
     z-index: 997;
     padding: 15px 0;
   }
@@ -160,7 +160,7 @@ body {
     border-radius: 4px;
     padding: 7px 25px 8px 25px;
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.1s;
     font-size: 14px;
     display: inline-block;
     border: 2px solid #6584ff;
@@ -210,7 +210,7 @@ body {
     font-weight: 600;
     color: #fff;
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .navbar a i,
@@ -239,7 +239,7 @@ body {
     visibility: hidden;
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .navbar .dropdown ul li {
@@ -302,7 +302,7 @@ body {
     cursor: pointer;
     display: none;
     line-height: 0;
-    transition: 0.5s;
+    transition: 0.3s;
   }
   
   @media (max-width: 991px) {
@@ -323,7 +323,7 @@ body {
     left: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.9);
-    transition: 0.3s;
+    transition: 0.1s;
     z-index: 999;
   }
   
@@ -343,7 +343,7 @@ body {
     padding: 10px 0;
     background-color: #fff;
     overflow-y: auto;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .navbar-mobile a,
@@ -448,14 +448,14 @@ body {
   
   #hero .icon-box {
     padding: 30px 20px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
     border: 1px solid rgba(255, 255, 255, 0.3);
     height: 100%;
     text-align: center;
   }
   
   #hero .icon-box i {
-    font-size: 32px;
+    font-size: 10px;
     line-height: 1;
     color: #6584ff;
   }
@@ -468,10 +468,15 @@ body {
     font-size: 20px;
     line-height: 26px;
   }
+
+  #hero .icon-box p {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+  }
   
   #hero .icon-box h3 a {
     color: #fff;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   #hero .icon-box h3 a:hover {
@@ -587,7 +592,7 @@ body {
   
   .clients .swiper-slide img {
     opacity: 0.5;
-    transition: 0.3s;
+    transition: 0.1s;
     filter: grayscale(100);
   }
   
@@ -620,7 +625,7 @@ body {
     text-align: center;
     border: 1px solid #ebebeb;
     padding: 10px 10px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
     background: #fff;
   }
   
@@ -631,14 +636,14 @@ body {
   .projects .icon-box-img {
     text-align: center;
     border: 1px solid #ebebeb;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
     background: #fff;
   }
   
   .projects .icon-box .icon i {
     color: #151515;
     font-size: 28px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   .projects .text-box h4 {
@@ -649,7 +654,7 @@ body {
   
   .projects .icon-box h4 a {
     color: #151515;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   .projects .icon-box h4 a:hover {
@@ -755,7 +760,7 @@ body {
     text-align: center;
     border: 1px solid #ebebeb;
     padding: 10px 10px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
     background: #fff;
   }
   
@@ -769,13 +774,13 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .services .icon-box .icon i {
     color: #151515;
     font-size: 28px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   .services .icon-box h4 {
@@ -786,7 +791,7 @@ body {
   
   .services .icon-box h4 a {
     color: #151515;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   .services .icon-box h4 a:hover {
@@ -833,7 +838,7 @@ body {
     display: inline-block;
     padding: 8px 28px;
     border-radius: 4px;
-    transition: 0.5s;
+    transition: 0.3s;
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
@@ -869,7 +874,7 @@ body {
     display: inline-block;
     padding: 8px 28px;
     border-radius: 4px;
-    transition: 0.5s;
+    transition: 0.3s;
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
@@ -904,7 +909,7 @@ body {
     text-transform: uppercase;
     color: #444444;
     margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
     border-radius: 3px;
   }
   
@@ -919,7 +924,7 @@ body {
   }
   
   .portfolio .portfolio-wrap {
-    transition: 0.3s;
+    transition: 0.1s;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -934,13 +939,13 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
     z-index: 2;
     opacity: 0;
   }
   
   .portfolio .portfolio-wrap img {
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
   }
   
   .portfolio .portfolio-wrap .portfolio-info {
@@ -951,7 +956,7 @@ body {
     right: 0;
     bottom: 0;
     z-index: 3;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -984,7 +989,7 @@ body {
     margin: 0 5px 0 0;
     font-size: 28px;
     display: inline-block;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1121,7 +1126,7 @@ body {
     color: #3b3b3b;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.1s;
   }
   
   .counts .content .count-box a:hover {
@@ -1278,7 +1283,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   
   .contact .info h4 {
@@ -1348,7 +1353,7 @@ body {
     margin: 0 10px -6px 0;
     border: 3px solid #18d26e;
     border-top-color: #eee;
-    animation: animate-loading 1s linear infinite;
+    animation: animate-loading 0.5s linear infinite;
   }
   
   .contact .php-email-form input,
@@ -1377,7 +1382,7 @@ body {
     border: 0;
     padding: 10px 24px;
     color: #151515;
-    transition: 0.4s;
+    transition: 0.2s;
     border-radius: 4px;
   }
   
@@ -1499,7 +1504,7 @@ body {
     text-align: center;
     width: 36px;
     height: 36px;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   #footer .footer-top .social-links a:hover {
@@ -1545,7 +1550,7 @@ body {
   
   #footer .footer-top .footer-links ul a {
     color: #fff;
-    transition: 0.3s;
+    transition: 0.1s;
     display: inline-block;
     line-height: 1;
   }
@@ -1579,7 +1584,7 @@ body {
     padding: 0 20px;
     background: #6584ff;
     color: #151515;
-    transition: 0.3s;
+    transition: 0.1s;
     border-radius: 0 4px 4px 0;
   }
   
