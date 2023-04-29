@@ -514,10 +514,11 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
-.section-title h2 {
-  font-size: 14px;
+.section-title h1 {
+  font-size: 35px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -528,13 +529,13 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title h1::after {
   content: "";
-  width: 120px;
+  width: 60px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
-  margin: 4px 10px;
+  background: #aaaaaa;
+  margin: 11px 7px;
 }
 
 .section-title p {
