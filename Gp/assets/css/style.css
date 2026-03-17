@@ -1799,3 +1799,21 @@ section {
   display: none;
   width: 100%;
 }
+
+/* --- GUZIK POKAŻ WIĘCEJ --- */
+.show-more-btn {
+  border-radius: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: #6584ff;
+  border: 2px solid #6584ff;
+  background-color: transparent;
+}
+
+.show-more-btn:hover {
+  background-color: #6584ff;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(101, 132, 255, 0.35);
+}
