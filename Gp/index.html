@@ -152,16 +152,15 @@
           <h2>Co robimy</h2>
           <p>Nasze projekty</p>
         </div>
-        <div class="row col-lg-12 d-flex justify-content-around">
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Kama')">Kama</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'stringFollower')">Follower</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Ser')">Ser</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Hiroshima')">Hiroshima</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'FollowLiner')">FollowLiner</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Placek')">Placek</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Piramida')">Piramida</button>
-          <button class="tablinks btn btn-outline-secondary col-lg-1 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, 'Toster')">Toster</button>
-        
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-5 mt-4">
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Kama')">Kama</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'stringFollower')">Follower</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Ser')">Ser</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Hiroshima')">Hiroshima</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'FollowLiner')">FollowLiner</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Placek')">Placek</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Piramida')">Piramida</button>
+          <button class="tablinks btn project-btn" onclick="openProject(event, 'Toster')">Toster</button>
         </div>
 
         <div id="Kama" class="tabcontent">
@@ -337,76 +336,79 @@
                 <p>Nasze sukcesy</p>
             </div>
 
-            <div class="row mb-5">
-                <p>
-                    <h5 class="mb-3"><b>I, II</b> miejsce Robothon</h5>
-                    <h5 class="mb-3"><b>3x I, 3x II</b> miejsce RobON 2025</h5>
-                    <h5 class="mb-3"><b>I, II</b> miejsce X-CHALLENGE 2025</h5>
-                    <h5 class="mb-3"><b>I</b> miejsce ROBOCOMP 2025</h5>
-                    <h5 class="mb-3"><b>I</b> miejsce RoboRAVE World Championship 2025 w Chinach</h5>
-                    <h5 class="mb-3"><b>I</b> miejsce EastROBO 2025</h5>
-                    <h5 class="mb-3"><b>I, II, 2x III</b> miejsce Rumble Robots 2025</h5>
-                    <h5 class="mb-3"><b>2x I, 2x II, 2x III</b> miejsce RobON 2024</h5>
-                    <h5 class="mb-3"><b>I, II, IV</b> miejsce X-CHALLENGE 2024</h5>
-                    <h5 class="mb-3"><b>I, II, III, IV</b> miejsce ROBOCOMP 2024</h5>
-                    <h5 class="mb-3"><b>I</b> miejsce RoboRAVE World Championship 2024 w Australii</h5>
-                    <h5 class="mb-3"><b>I, 2x II, 2x III</b> miejsce Rumble Robots 2024</h5>
-                    <h5 class="mb-3"><b>2x II, III</b> miejsce RoboRAVE World Championship 2023 w Meksyku</h5>
-                    <h5 class="mb-3"><b>II</b> miejsce Robotic Arena XII Wrocław 2023</h5>
-                    <h5 class="mb-3"><b>I, III</b> miejsce Rumble Robots 2023</h5>
-                    <h5 class="mb-3"><b>I, II, III, IV</b> miejsce ROBOmotion 2022</h5>
-                    <h5 class="mb-3"><b>2x I, 3x II, III</b> miejsce DART Kraków 2022</h5>
-                    <h5 class="mb-3"><b>I, 3x III</b> miejsce Robotic Arena Wrocław 2022</h5>
-                    <h5 class="mb-3"><b>I, II, IV</b> miejsce ROBOmotion Rzeszów 2021</h5>
-                    <h5 class="mb-3"><b>II, III</b> miejsce EAST ROBO 2021</h5>
-                    <h5 class="mb-3"><b>I, II</b> miejsce Robotic Arena XII Wrocław 2020</h5>
-                    <h5 class="mb-3"><b>I</b> miejsce Sumo Challenge 2019</h5>
-                    <h5 class="mb-3"><b>I, III, IV</b> miejsce ROBOCOMP 2019</h5>
-                    <span id="dots"></span>
-
-                    <span id="more">
-                        <h5 class="mb-3"><b>I, III</b> miejsce Rumble Robots 2019</h5>
-                        <h5 class="mb-3"><b>I, 2x III</b> miejsce Bałtyckie Bitwy Robotów 2019</h5>
-                        <h5 class="mb-3">RoboRAVE International, Guangzhou Chiny 2019</h5>
-                        <h5 class="mb-3"><b>II, III</b> miejsce RoboRAVE Poland 2019</h5>
-                        <h5 class="mb-3"><b>II</b> miejsce RoboRAVE Germany 2018</h5>
-                        <h5 class="mb-3"><b>I,II, IV</b> miejsce RoboRAVE Poland 2018</h5>
-                        <h5 class="mb-3"><b>IV</b> miejsce SumoChallenge Łódź 2017</h5>
-                        <br><br>
-                        <h5 class="mb-3"><b>III</b> miejsce LegoSumo 2014 na TTR w Gdańsku</h5>
-                        <h5 class="mb-3"><b>I</b> miejsce TopBOT 2013 w III LO w Gdańsku</h5>
-                        <h5 class="mb-3"><b>II</b> miejsce 3cityBOT 2013 na Uniwersytecie Gdańskim</h5>
-                        <h5 class="mb-3"><b>IV</b> miejsce TopBOT 2013 w III LO w Gdańsku</h5>
-                        <h5 class="mb-3"><b>II</b> miejsce Robo Lions Arena 2012 w Gdańsku</h5>
-                        <h5 class="mb-3"><b>II</b> miejsce Trójmiejski Turniej Robotów 2012 na Politechnice Gdańskiej</h5>
-                        <h5 class="mb-3"><b>II</b> miejsce TopBOT 2010 w III LO w Gdańsku</h5>
-                        <h5 class="mb-3"><b>VIII</b> miejsce Minisumo 2009 na UTP w Bydgoszczy</h5>
-                        <h5 class="mb-3"><b>I</b> miejsce Trójmiejski Turniej Robotów 2009 na Politechnice Gdańskiej</h5>
-                        <h5 class="mb-3"><b>2x I</b> miejsca Sumo Challenge 2009 na Politechnice Łódzkiej</h5>
-                        <h5 class="mb-3"><b>I</b> miejsce na Lidze Robotycznej 2008/09 w Gdyni</h5>
-                        <h5 class="mb-3"><b>I</b> miejsce Bionikalia 2008 na Politechnice Warszawskiej</h5>
-                        <h5 class="mb-3"><b>I</b> miejsce TopBOT 2008 w III LO w Gdańsku</h5>
-                        <h5 class="mb-3"><b>III</b> miejsce ZnekBOT 2008 w Warszawie</h5>
-                        <h5 class="mb-3"><b>III</b> miejsce Minisumo 2008 na UTP w Bydgoszczy</h5>
-                        <h5 class="mb-3"><b>IV i VI</b> miejsce Robotic Arena 2008 na Politechnice Wrocławskiej</h5>
-                        <h5 class="mb-3"><b>IV</b> miejsce Minisumo 2008 w Gdańsku</h5>
-                        <h5 class="mb-3"><b>V</b> miejsce ZnekBOT 2008 w Gdyni</h5>
-                    </span>
-                </p>
-
-                <button class="btn btn-link text-dark w-50" onclick="myFunction()" id="myBtn">	&darr;  Pokaż więcej  &darr;</button>
-
+            <div class="row mb-5 justify-content-center">
+              <div class="col-lg-10">
+                <ul class="achievements-list list-unstyled">
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II</b> miejsce Robothon</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>3x I, 3x II</b> miejsce RobON 2025</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II</b> miejsce X-CHALLENGE 2025</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce ROBOCOMP 2025</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce RoboRAVE World Championship 2025 w Chinach</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce EastROBO 2025</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, 2x III</b> miejsce Rumble Robots 2025</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>2x I, 2x II, 2x III</b> miejsce RobON 2024</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, IV</b> miejsce X-CHALLENGE 2024</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, III, IV</b> miejsce ROBOCOMP 2024</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce RoboRAVE World Championship 2024 w Australii</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, 2x II, 2x III</b> miejsce Rumble Robots 2024</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>2x II, III</b> miejsce RoboRAVE World Championship 2023 w Meksyku</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce Robotic Arena XII Wrocław 2023</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, III</b> miejsce Rumble Robots 2023</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, III, IV</b> miejsce ROBOmotion 2022</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>2x I, 3x II, III</b> miejsce DART Kraków 2022</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, 3x III</b> miejsce Robotic Arena Wrocław 2022</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, IV</b> miejsce ROBOmotion Rzeszów 2021</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>II, III</b> miejsce EAST ROBO 2021</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, II</b> miejsce Robotic Arena XII Wrocław 2020</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce Sumo Challenge 2019</span></li>
+                  <li><i class="bi bi-trophy-fill"></i> <span><b>I, III, IV</b> miejsce ROBOCOMP 2019</span></li>
+                  
+                  <span id="dots"></span>
+                  
+                  <div id="more">
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I, III</b> miejsce Rumble Robots 2019</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I, 2x III</b> miejsce Bałtyckie Bitwy Robotów 2019</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span>RoboRAVE International, Guangzhou Chiny 2019</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II, III</b> miejsce RoboRAVE Poland 2019</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce RoboRAVE Germany 2018</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I, II, IV</b> miejsce RoboRAVE Poland 2018</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>IV</b> miejsce SumoChallenge Łódź 2017</span></li>
+                    <li class="mt-3"><i class="bi bi-trophy-fill"></i> <span><b>III</b> miejsce LegoSumo 2014 na TTR w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce TopBOT 2013 w III LO w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce 3cityBOT 2013 na Uniwersytecie Gdańskim</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>IV</b> miejsce TopBOT 2013 w III LO w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce Robo Lions Arena 2012 w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce Trójmiejski Turniej Robotów 2012 na Politechnice Gdańskiej</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>II</b> miejsce TopBOT 2010 w III LO w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>VIII</b> miejsce Minisumo 2009 na UTP w Bydgoszczy</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce Trójmiejski Turniej Robotów 2009 na Politechnice Gdańskiej</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>2x I</b> miejsca Sumo Challenge 2009 na Politechnice Łódzkiej</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce na Lidze Robotycznej 2008/09 w Gdyni</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce Bionikalia 2008 na Politechnice Warszawskiej</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>I</b> miejsce TopBOT 2008 w III LO w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>III</b> miejsce ZnekBOT 2008 w Warszawie</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>III</b> miejsce Minisumo 2008 na UTP w Bydgoszczy</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>IV i VI</b> miejsce Robotic Arena 2008 na Politechnice Wrocławskiej</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>IV</b> miejsce Minisumo 2008 w Gdańsku</span></li>
+                    <li><i class="bi bi-trophy-fill"></i> <span><b>V</b> miejsce ZnekBOT 2008 w Gdyni</span></li>
+                  </div>
+                </ul>
+                
+                <div class="text-center mt-4">
+                  <button class="btn btn-outline-primary rounded-pill px-5 py-2 font-weight-bold" onclick="myFunction()" id="myBtn">↓ Pokaż więcej ↓</button>
+                </div>
+              </div>
             </div>
 
-            <div class="row d-flex justify-content-around">
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2026')">2026</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2025')">2025</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2024')">2024</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2023')">2023</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2022')">2022</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2021')">2021</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2020')">2020</button>
-                <button class="tablinks btn btn-outline-secondary col-lg-2 col-md-4 d-flex justify-content-around align-items-stretch mb-2" onclick="openYear(event, '2019')">2019</button>
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5 mt-5">
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2026')">2026</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2025')">2025</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2024')">2024</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2023')">2023</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2022')">2022</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2021')">2021</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2020')">2020</button>
+                <button class="tablinks btn year-btn" onclick="openYear(event, '2019')">2019</button>
             </div>
 
             <div id="2026" class="tabcontent">
@@ -876,24 +878,80 @@
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 <script>
+  // Tablica z nazwami (ID) wszystkich robotów zachowująca ich kolejność
+  const robots = ['Kama', 'stringFollower', 'Ser', 'Hiroshima', 'FollowLiner', 'Placek', 'Piramida', 'Toster'];
+  let currentRobotIndex = 3; // Domyślnie ładujemy 'Hiroshima' (pozycja nr 3 w tablicy)
+  let robotTimer;
+
   window.onload = function() {
-    openYear(event, 'Hiroshima'); // Pass the string identifier for the 'Kama' tab
+    // Domyślne uruchamianie zakładek
+    openProject(null, 'Hiroshima'); 
+    openYear(null, '2026'); 
+    
+    // Uruchomienie automatycznego przewijania po załadowaniu strony
+    startRobotAutoPlay(); 
   }
 
-  function openYear(evt, whatYear) {
+  // Funkcja odpowiedzialna za co 15-sekundową zmianę
+  function startRobotAutoPlay() {
+    clearInterval(robotTimer); // Czyścimy poprzedni stoper
+    robotTimer = setInterval(function() {
+      currentRobotIndex++;
+      if(currentRobotIndex >= robots.length) {
+        currentRobotIndex = 0; // Wracamy do początku po ostatnim robocie
+      }
+      openProject(null, robots[currentRobotIndex]);
+    }, 15000); // 15000 milisekund = 15 sekund
+  }
+
+  // Funkcja dla sekcji "Nasze projekty"
+  function openProject(evt, projectName) {
     var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
+    tabcontent = document.querySelectorAll("#projects .tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.querySelectorAll("#projects .tablinks");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
+      tablinks[i].classList.remove("active");
     }
-    document.getElementById(whatYear).style.display = "block";
-    evt.currentTarget.className += " active";
+    document.getElementById(projectName).style.display = "block";
+    
+    if(evt) {
+      // Użytkownik kliknął samodzielnie
+      evt.currentTarget.classList.add("active");
+      
+      // Znajdź pozycję klikniętego robota i zaktualizuj index
+      currentRobotIndex = robots.indexOf(projectName);
+      // Zresetuj timer, żeby automatyczna zmiana nie zaskoczyła czytelnika sekundę po kliknięciu
+      startRobotAutoPlay(); 
+    } else {
+      // Automatyczna zmiana
+      document.querySelector(`button[onclick="openProject(event, '${projectName}')"]`).classList.add("active");
+    }
   }
 
+  // Funkcja dla sekcji "Osiągnięcia" (Lata) - pozostaje bez zmian
+  function openYear(evt, whatYear) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.querySelectorAll("#services .tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.querySelectorAll("#services .tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active");
+    }
+    document.getElementById(whatYear).style.display = "block";
+    
+    if(evt) {
+      evt.currentTarget.classList.add("active");
+    } else {
+      document.querySelector(`button[onclick="openYear(event, '${whatYear}')"]`).classList.add("active");
+    }
+  }
+
+  // Pokaż więcej (Rozwijanie listy osiągnięć) - pozostaje bez zmian
   function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -901,11 +959,11 @@
 
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "	&darr;  Pokaż więcej  &darr;";
+      btnText.innerHTML = "	↓  Pokaż więcej  ↓";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Pokaż mniej";
+      btnText.innerHTML = "↑ Pokaż mniej ↑";
       moreText.style.display = "inline";
     }
   }

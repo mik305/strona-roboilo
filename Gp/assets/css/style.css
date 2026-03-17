@@ -1621,3 +1621,181 @@ section {
 }
 
 #more {display: none;}
+
+/* --- UJEDNOLICONE GUZIKI DLA LAT I PROJEKTÓW --- */
+
+.year-btn, .project-btn {
+  min-width: 120px;
+  border-radius: 30px; /* Eleganckie, zaokrąglone kształty dla wszystkich */
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: #555;
+  border: 2px solid #eaeaea;
+  background-color: #fff;
+}
+
+.year-btn:hover, .project-btn:hover {
+  border-color: #6584ff;
+  color: #6584ff;
+  transform: translateY(-2px); /* Delikatne uniesienie po najechaniu */
+}
+
+.year-btn.active, .project-btn.active {
+  background-color: #6584ff;
+  color: #fff;
+  border-color: #6584ff;
+  box-shadow: 0 6px 15px rgba(101, 132, 255, 0.35); /* Niebieska poświata aktywnego przycisku */
+  transform: translateY(0);
+}
+/* --- POPRAWA WYGLĄDU KART Z ZAWODAMI --- */
+
+/* Nadpisanie i wyłączenie efektu "podskakiwania" z oryginalnego szablonu */
+#services .tabcontent .icon-box,
+#services .tabcontent .icon-box:hover {
+  text-align: left;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03); /* Bardzo delikatny, statyczny cień */
+  transform: none !important; /* Wyłącza podskakiwanie */
+  height: 100%;
+}
+
+
+
+/* Nagłówek - nazwa zawodów */
+#services .tabcontent .icon-box h4 {
+  color: #151515;
+  font-weight: 700;
+  font-size: 24px;
+  border-bottom: 3px solid #6584ff;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/* Wyniki (tagi h5) - dodajemy tło i automatyczną ikonę! */
+#services .tabcontent .icon-box h5 {
+  color: #333;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f8f9fa;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 4px solid #6584ff;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+
+/* Opis tekstowy zawodów */
+#services .tabcontent .icon-box p {
+  color: #555;
+  line-height: 1.8;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* --- STYLE PROJEKTÓW ROBOTÓW --- */
+
+/* Animacja łagodnego pojawiania się zakładek */
+.tabcontent {
+  animation: fadeEffect 0.6s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* Pudełka ze zdjęciami robotów */
+#projects .icon-box-img {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#projects .icon-box-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Formatowanie tekstu opisu robota */
+#projects .text-box {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#projects .text-box h1 {
+  font-size: 32px;
+  color: #151515;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+#projects .text-box h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -32px; /* <-- Ta wartość obniża podkreślenie */
+  width: 50px;
+  height: 3px;
+  background-color: #6584ff;
+}
+
+#projects .text-box p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* --- STYLE LISTY OSIĄGNIĘĆ --- */
+
+.achievements-list li {
+  background: #fff;
+  padding: 14px 25px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+  border-left: 5px solid #6584ff;
+  font-size: 16px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.achievements-list li:hover {
+  transform: translateX(8px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.achievements-list li i {
+  font-size: 22px;
+  color: #ffca28; /* Złoty kolor pucharu */
+  margin-right: 18px;
+}
+
+.achievements-list b {
+  color: #151515;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* Dopasowanie ukrytych elementów */
+#more {
+  display: none;
+  width: 100%;
+}
